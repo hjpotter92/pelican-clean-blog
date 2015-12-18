@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
 {% block header %}
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
     {% if HEADER_COVER %}
         <header class="intro-header" style="background-image: url('{{ HEADER_COVER }}')">
     {% else %}
@@ -47,4 +45,3 @@
     {% include "pagination.html" %}
     <hr>
 {% endblock content %}
-
